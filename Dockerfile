@@ -29,6 +29,12 @@ RUN echo '\
 	<canvas id="canvas"></canvas>\
 </html>\
 <script type="text/javascript">\
+var colors = [\
+    ['rgba(179,255,129,', 'rgba(0,255,0,'],\
+    ['rgba(0,0,255,', 'rgba(100,217,255,'],\
+    ['rgba(255,0,0,', 'rgba(255,255,0,'],\
+    ['rgba(145,0,213,', 'rgba(251,144,204,']\
+  ];\
 </script>\
 
 '\
