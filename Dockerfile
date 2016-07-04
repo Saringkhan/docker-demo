@@ -14,7 +14,7 @@ RUN echo '\
 	canvas {\
 	  display: block;\
 	}\
-	#overlay {\
+	overlay {\
 	  position: absolute;\
 	  color: white;\
 	  font-family: "Arial";\
@@ -25,7 +25,7 @@ RUN echo '\
 	}\
 </style>\
 <html>\
-	<div id="overlay">Cloud Architecture</div>\
+	<overlay>Cloud Architecture</overlay>\
 	<canvas id="canvas"></canvas>\
 </html>\
 <script type="text/javascript">\
