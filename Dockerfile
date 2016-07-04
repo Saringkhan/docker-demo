@@ -28,6 +28,8 @@ RUN echo '\
 	<div id="overlay">Cloud Architecture</div>\
 	<canvas id="canvas"></canvas>\
 </html>\
+<script type="text/javascript">\
+</script>\
 
 '\
 > /usr/share/nginx/html/index.html
